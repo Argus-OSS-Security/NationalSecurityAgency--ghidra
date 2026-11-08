@@ -1,6 +1,7 @@
 name: Build Ghidra
 
-on: [push]
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on: [push]
 
 jobs:
   build:

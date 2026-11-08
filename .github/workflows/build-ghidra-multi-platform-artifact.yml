@@ -1,8 +1,9 @@
 name: Build Ghidra Multi-Platform Artifact
 
-on:
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   workflow_dispatch:
+# 
 jobs:
   build:
     strategy:
